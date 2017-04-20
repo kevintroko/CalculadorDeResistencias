@@ -1,2 +1,5 @@
-# CalculadorDeResistencias
+# Calculador De Resistencias
 Aplicaciones de los Sistemas de ecuaciones algebraicas lineales para saber la corriente en una malla eléctrica.
+
+El proyecto se trata de una aplicación hecha en Java con GUI de análisis de circuitos eléctricos R. Los circuitos eléctricos en la aplicación consta de dos mallas constantes, o una simple, causando que haya dos variables en el sistema de ecuaciones. Estas variables son resueltas mediante el proceso de eliminación gaussiana de Gauss Jordan.
+El sistema toma valores introducidos por el usuario correspondientes al tamaño de carga eléctrica que él le disponga a los componentes del circuito. Estos valores son escritos en un archivo de texto en forma de un sistema de dos ecuaciones y otra clase -la clase Gauss Jordan- se encarga de resolver dicho sistema, descubriendo los valores de las dos incógnitas que en este caso se trata de la corriente eléctrica que pasa por el circuito. Estos valores son utilizados en otra función, la cual deduce la corriente eléctrica en una sección específica del sistema.
